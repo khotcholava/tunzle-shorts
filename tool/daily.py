@@ -53,8 +53,11 @@ def ask_qwen(row, key):
     prompt = (
         "You write viral YouTube Shorts titles for 'Tunzle', a music guessing quiz channel.\n"
         f"The hidden answer is: {m['name']} ({m['sub']}). Difficulty: {row['level']}. Format: {row['format']}. Theme: {row['theme']}.\n"
-        "Rules: NEVER reveal or hint the name, composer, film, game or brand. Title max 60 characters, 1 emoji, "
-        "curiosity/challenge style (e.g. 'Only 10% Can Name This 🔴'). Hook: one short sentence inviting viewers to comment their guess.\n"
+        "Rules: NEVER reveal or hint the name, composer, film, game or brand. Title max 50 characters, exactly 1 emoji at the end. "
+        "Do NOT invent facts about the song (no counts of notes, words, lines or years). Use a challenge/curiosity hook.\n"
+        "Good titles: 'Only 10% Can Name This 🔴' | 'You Heard This As A Kid… Name It? 👶' | 'Name This Tune in 5 Seconds ⏱️' | "
+        "'Everyone Knows It, Nobody Can Name It 🤔' | 'Bet You Can't Guess This One 😏' | 'Your Grandma Knows This Melody 👵'.\n"
+        "Write a NEW title in that style (don't copy the examples). Hook: one short sentence inviting viewers to comment their guess before the reveal.\n"
         'Reply ONLY as JSON: {"title": "...", "hook": "..."}')
     try:
         r = requests.post(CFG["ollama_url"].rstrip("/") + "/api/generate",
