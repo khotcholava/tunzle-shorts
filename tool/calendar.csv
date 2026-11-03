@@ -1,0 +1,131 @@
+batch_date,slot,post_date,time,theme,format,melody,level
+2026-11-05,1,2026-11-05,16:00,Opera & Ballet,normal,hallelujah,Easy
+2026-11-05,2,2026-11-05,18:00,Opera & Ballet,normal,beethoven5,Easy
+2026-11-05,3,2026-11-05,21:00,Opera & Ballet,normal,nachtmusik,Medium
+2026-11-05,4,2026-11-06,00:00,Opera & Ballet,normal,turkish_march,Medium
+2026-11-05,5,2026-11-06,03:00,Opera & Ballet,three_notes,canon,Hard
+2026-11-06,1,2026-11-06,16:00,Kids Songs,normal,frere_jacques,Easy
+2026-11-06,2,2026-11-06,18:00,Kids Songs,normal,twinkle,Easy
+2026-11-06,3,2026-11-06,21:00,Kids Songs,normal,itsy_bitsy,Medium
+2026-11-06,4,2026-11-07,00:00,Kids Songs,normal,yankee_doodle,Medium
+2026-11-06,5,2026-11-07,03:00,Kids Songs,three_notes,happy_birthday,Hard
+2026-11-07,1,2026-11-07,16:00,Party & Celebration,normal,bridal_chorus,Easy
+2026-11-07,2,2026-11-07,18:00,Party & Celebration,normal,jolly_fellow,Easy
+2026-11-07,3,2026-11-07,21:00,Party & Celebration,normal,greensleeves,Medium
+2026-11-07,4,2026-11-08,00:00,Party & Celebration,normal,scarborough,Medium
+2026-11-07,5,2026-11-08,03:00,Party & Celebration,three_notes,cucaracha,Hard
+2026-11-08,1,2026-11-08,16:00,HARD MODE Sunday,three_notes,blue_danube,Hard
+2026-11-08,2,2026-11-08,18:00,HARD MODE Sunday,backwards,entertainer,Hard
+2026-11-08,3,2026-11-08,21:00,HARD MODE Sunday,double_speed,saints,Hard
+2026-11-08,4,2026-11-09,00:00,HARD MODE Sunday,three_notes,oh_susanna,Hard
+2026-11-08,5,2026-11-09,03:00,HARD MODE Sunday,backwards,amazing_grace,Hard
+2026-11-09,1,2026-11-09,16:00,Classical Hits,normal,brahms_lullaby,Easy
+2026-11-09,2,2026-11-09,18:00,Classical Hits,normal,morning_mood,Easy
+2026-11-09,3,2026-11-09,21:00,Classical Hits,normal,fur_elise,Medium
+2026-11-09,4,2026-11-10,00:00,Classical Hits,normal,nachtmusik,Medium
+2026-11-09,5,2026-11-10,03:00,Classical Hits,three_notes,ode_to_joy,Hard
+2026-11-10,1,2026-11-10,16:00,Folk Songs Around the World,normal,drunken_sailor,Easy
+2026-11-10,2,2026-11-10,18:00,Folk Songs Around the World,normal,auld_lang_syne,Easy
+2026-11-10,3,2026-11-10,21:00,Folk Songs Around the World,normal,nokia,Medium
+2026-11-10,4,2026-11-11,00:00,Folk Songs Around the World,normal,tetris,Medium
+2026-11-10,5,2026-11-11,03:00,Folk Songs Around the World,three_notes,greensleeves,Hard
+2026-11-11,1,2026-11-11,16:00,Movie & Cartoon Classics,normal,william_tell,Easy
+2026-11-11,2,2026-11-11,18:00,Movie & Cartoon Classics,normal,can_can,Easy
+2026-11-11,3,2026-11-11,21:00,Movie & Cartoon Classics,normal,zarathustra,Medium
+2026-11-11,4,2026-11-12,00:00,Movie & Cartoon Classics,normal,funeral_march,Medium
+2026-11-11,5,2026-11-12,03:00,Movie & Cartoon Classics,normal,mountain_king,Hard
+2026-11-12,1,2026-11-12,16:00,Opera & Ballet,normal,habanera,Easy
+2026-11-12,2,2026-11-12,18:00,Opera & Ballet,normal,toreador,Easy
+2026-11-12,3,2026-11-12,21:00,Opera & Ballet,normal,swan_lake,Medium
+2026-11-12,4,2026-11-13,00:00,Opera & Ballet,normal,sugar_plum,Medium
+2026-11-12,5,2026-11-13,03:00,Opera & Ballet,three_notes,hallelujah,Hard
+2026-11-13,1,2026-11-13,16:00,Kids Songs,normal,old_macdonald,Easy
+2026-11-13,2,2026-11-13,18:00,Kids Songs,normal,row_boat,Easy
+2026-11-13,3,2026-11-13,21:00,Kids Songs,normal,london_bridge,Medium
+2026-11-13,4,2026-11-14,00:00,Kids Songs,normal,mary_lamb,Medium
+2026-11-13,5,2026-11-14,03:00,Kids Songs,three_notes,pop_weasel,Hard
+2026-11-14,1,2026-11-14,16:00,Party & Celebration,normal,ball_game,Easy
+2026-11-14,2,2026-11-14,18:00,Party & Celebration,normal,if_happy,Easy
+2026-11-14,3,2026-11-14,21:00,Party & Celebration,normal,bridal_chorus,Medium
+2026-11-14,4,2026-11-15,00:00,Party & Celebration,normal,jolly_fellow,Medium
+2026-11-14,5,2026-11-15,03:00,Party & Celebration,three_notes,scarborough,Hard
+2026-11-15,1,2026-11-15,16:00,HARD MODE Sunday,three_notes,valkyries,Hard
+2026-11-15,2,2026-11-15,18:00,HARD MODE Sunday,backwards,beethoven5,Hard
+2026-11-15,3,2026-11-15,21:00,HARD MODE Sunday,double_speed,turkish_march,Hard
+2026-11-15,4,2026-11-16,00:00,HARD MODE Sunday,three_notes,canon,Hard
+2026-11-15,5,2026-11-16,03:00,HARD MODE Sunday,backwards,frere_jacques,Hard
+2026-11-16,1,2026-11-16,16:00,Classical Hits,normal,blue_danube,Easy
+2026-11-16,2,2026-11-16,18:00,Classical Hits,normal,brahms_lullaby,Easy
+2026-11-16,3,2026-11-16,21:00,Classical Hits,normal,morning_mood,Medium
+2026-11-16,4,2026-11-17,00:00,Classical Hits,normal,fur_elise,Medium
+2026-11-16,5,2026-11-17,03:00,Classical Hits,three_notes,ode_to_joy,Hard
+2026-11-17,1,2026-11-17,16:00,Folk Songs Around the World,normal,cucaracha,Easy
+2026-11-17,2,2026-11-17,18:00,Folk Songs Around the World,normal,saints,Easy
+2026-11-17,3,2026-11-17,21:00,Folk Songs Around the World,normal,oh_susanna,Medium
+2026-11-17,4,2026-11-18,00:00,Folk Songs Around the World,normal,auld_lang_syne,Medium
+2026-11-17,5,2026-11-18,03:00,Folk Songs Around the World,three_notes,amazing_grace,Hard
+2026-11-18,1,2026-11-18,16:00,Movie & Cartoon Classics,normal,entertainer,Easy
+2026-11-18,2,2026-11-18,18:00,Movie & Cartoon Classics,normal,william_tell,Easy
+2026-11-18,3,2026-11-18,21:00,Movie & Cartoon Classics,normal,zarathustra,Medium
+2026-11-18,4,2026-11-19,00:00,Movie & Cartoon Classics,normal,funeral_march,Medium
+2026-11-18,5,2026-11-19,03:00,Movie & Cartoon Classics,normal,mountain_king,Hard
+2026-11-19,1,2026-11-19,16:00,Opera & Ballet,normal,habanera,Easy
+2026-11-19,2,2026-11-19,18:00,Opera & Ballet,normal,toreador,Easy
+2026-11-19,3,2026-11-19,21:00,Opera & Ballet,normal,swan_lake,Medium
+2026-11-19,4,2026-11-20,00:00,Opera & Ballet,normal,sugar_plum,Medium
+2026-11-19,5,2026-11-20,03:00,Opera & Ballet,three_notes,hallelujah,Hard
+2026-11-20,1,2026-11-20,16:00,Kids Songs,normal,twinkle,Easy
+2026-11-20,2,2026-11-20,18:00,Kids Songs,normal,happy_birthday,Easy
+2026-11-20,3,2026-11-20,21:00,Kids Songs,normal,itsy_bitsy,Medium
+2026-11-20,4,2026-11-21,00:00,Christmas Countdown,normal,jingle_bells,Easy
+2026-11-20,5,2026-11-21,03:00,Christmas Countdown,three_notes,silent_night,Hard
+2026-11-21,1,2026-11-21,16:00,Party & Celebration,normal,drunken_sailor,Easy
+2026-11-21,2,2026-11-21,18:00,Party & Celebration,normal,old_macdonald,Easy
+2026-11-21,3,2026-11-21,21:00,Party & Celebration,normal,yankee_doodle,Medium
+2026-11-21,4,2026-11-22,00:00,Christmas Countdown,normal,we_wish,Easy
+2026-11-21,5,2026-11-22,03:00,Christmas Countdown,three_notes,deck_halls,Hard
+2026-11-22,1,2026-11-22,16:00,HARD MODE Sunday,three_notes,row_boat,Hard
+2026-11-22,2,2026-11-22,18:00,HARD MODE Sunday,backwards,london_bridge,Hard
+2026-11-22,3,2026-11-22,21:00,HARD MODE Sunday,double_speed,mary_lamb,Hard
+2026-11-22,4,2026-11-23,00:00,Christmas Countdown,normal,o_tannenbaum,Medium
+2026-11-22,5,2026-11-23,03:00,Christmas Countdown,three_notes,joy_world,Hard
+2026-11-23,1,2026-11-23,16:00,Classical Hits,normal,beethoven5,Easy
+2026-11-23,2,2026-11-23,18:00,Classical Hits,normal,nachtmusik,Easy
+2026-11-23,3,2026-11-23,21:00,Classical Hits,normal,turkish_march,Medium
+2026-11-23,4,2026-11-24,00:00,Christmas Countdown,normal,hark_herald,Medium
+2026-11-23,5,2026-11-24,03:00,Christmas Countdown,three_notes,carol_bells,Hard
+2026-11-24,1,2026-11-24,16:00,Folk Songs Around the World,normal,nokia,Easy
+2026-11-24,2,2026-11-24,18:00,Folk Songs Around the World,normal,tetris,Easy
+2026-11-24,3,2026-11-24,21:00,Folk Songs Around the World,normal,greensleeves,Medium
+2026-11-24,4,2026-11-25,00:00,Christmas Countdown,normal,god_rest,Hard
+2026-11-24,5,2026-11-25,03:00,Christmas Countdown,three_notes,o_come_faithful,Hard
+2026-11-25,1,2026-11-25,16:00,Movie & Cartoon Classics,normal,can_can,Easy
+2026-11-25,2,2026-11-25,18:00,Movie & Cartoon Classics,normal,entertainer,Easy
+2026-11-25,3,2026-11-25,21:00,Movie & Cartoon Classics,normal,canon,Medium
+2026-11-25,4,2026-11-26,00:00,Christmas Countdown,normal,good_king,Hard
+2026-11-25,5,2026-11-26,03:00,Christmas Countdown,normal,first_noel,Hard
+2026-11-26,1,2026-11-26,16:00,Opera & Ballet,normal,blue_danube,Easy
+2026-11-26,2,2026-11-26,18:00,Opera & Ballet,normal,habanera,Easy
+2026-11-26,3,2026-11-26,21:00,Opera & Ballet,normal,toreador,Medium
+2026-11-26,4,2026-11-27,00:00,Christmas Countdown,normal,angels_high,Hard
+2026-11-26,5,2026-11-27,03:00,Christmas Countdown,three_notes,jingle_bells,Hard
+2026-11-27,1,2026-11-27,16:00,Kids Songs,normal,pop_weasel,Easy
+2026-11-27,2,2026-11-27,18:00,Kids Songs,normal,if_happy,Easy
+2026-11-27,3,2026-11-27,21:00,Christmas Countdown,normal,silent_night,Easy
+2026-11-27,4,2026-11-28,00:00,Christmas Countdown,normal,we_wish,Easy
+2026-11-27,5,2026-11-28,03:00,Christmas Countdown,three_notes,deck_halls,Hard
+2026-11-28,1,2026-11-28,16:00,Party & Celebration,normal,ball_game,Easy
+2026-11-28,2,2026-11-28,18:00,Party & Celebration,normal,bridal_chorus,Easy
+2026-11-28,3,2026-11-28,21:00,Christmas Countdown,normal,o_tannenbaum,Medium
+2026-11-28,4,2026-11-29,00:00,Christmas Countdown,normal,joy_world,Medium
+2026-11-28,5,2026-11-29,03:00,Christmas Countdown,three_notes,hark_herald,Hard
+2026-11-29,1,2026-11-29,16:00,HARD MODE Sunday,three_notes,scarborough,Hard
+2026-11-29,2,2026-11-29,18:00,HARD MODE Sunday,backwards,jolly_fellow,Hard
+2026-11-29,3,2026-11-29,21:00,Christmas Countdown,normal,carol_bells,Medium
+2026-11-29,4,2026-11-30,00:00,Christmas Countdown,normal,god_rest,Hard
+2026-11-29,5,2026-11-30,03:00,Christmas Countdown,three_notes,o_come_faithful,Hard
+2026-11-30,1,2026-11-30,16:00,Classical Hits,normal,brahms_lullaby,Easy
+2026-11-30,2,2026-11-30,18:00,Classical Hits,normal,morning_mood,Easy
+2026-11-30,3,2026-11-30,21:00,Christmas Countdown,normal,good_king,Hard
+2026-11-30,4,2026-12-01,00:00,Christmas Countdown,normal,first_noel,Hard
+2026-11-30,5,2026-12-01,03:00,Christmas Countdown,normal,angels_high,Hard
