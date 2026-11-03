@@ -1,5 +1,7 @@
 # Tunzle – daily Shorts pipeline
 
+> **Running it with Hermes Agent + Ollama instead of Claude?** Follow [hermes/HERMES_SETUP.md](hermes/HERMES_SETUP.md) (WSL2) instead of the Windows setup below.
+
 Your PC makes the videos; Claude only schedules them in Metricool.
 
 ```
