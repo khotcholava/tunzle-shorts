@@ -12,8 +12,8 @@ GROUND = 965
 FIT = 610                      # px the focused item is scaled to
 FOCUS_X = 0.60                 # focused item sits at 60% of screen width
 AM = (255, 184, 28); AMD = (150, 105, 20); BG = (20, 20, 28); WHITE = (245, 245, 250); GREY = (150, 150, 165)
-FB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tool", "fonts", "Poppins-Bold.ttf")
-FM = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tool", "fonts", "Poppins-Medium.ttf")
+FB = "" + __import__("os").path.join(__import__("os").path.dirname(__file__), "../tool/fonts/") + "Poppins-Bold.ttf"
+FM = "" + __import__("os").path.join(__import__("os").path.dirname(__file__), "../tool/fonts/") + "Poppins-Medium.ttf"
 _fc = {}
 def font(path, s):
     k = (path, s)
