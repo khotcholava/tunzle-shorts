@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Tunzle daily batch at 11:30 Tbilisi time
+
+[Timer]
+OnCalendar=*-*-* 11:30:00 Asia/Tbilisi
+# If the PC was off/asleep at 11:30, run as soon as it's back on.
+Persistent=true
+
+[Install]
+WantedBy=timers.target

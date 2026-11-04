@@ -1,0 +1,10 @@
+[Unit]
+Description=Tunzle daily Shorts batch (render + Qwen titles + git push)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+# install.sh replaces @REPO@ with the repo path
+ExecStart=@REPO@/linux/run_daily.sh
+TimeoutStartSec=45min

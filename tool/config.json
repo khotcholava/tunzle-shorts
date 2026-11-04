@@ -5,5 +5,6 @@
   "use_ollama": true,
   "ollama_url": "http://localhost:11434",
   "ollama_model": "qwen3:8b",
+  "ollama_retries": 3,
   "ffmpeg": "ffmpeg"
 }

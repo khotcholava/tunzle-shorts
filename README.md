@@ -1,6 +1,41 @@
 # Tunzle – daily Shorts pipeline
 
-> **Running it with Hermes Agent + Ollama instead of Claude?** Follow [hermes/HERMES_SETUP.md](hermes/HERMES_SETUP.md) (WSL2) instead of the Windows setup below.
+> **On Linux (Fedora)?** Use the [Linux setup](#linux-setup-fedora) right below – it's the current setup.
+> The Windows / WSL2 instructions further down are kept for reference.
+
+## Linux setup (Fedora)
+
+Current machine: Fedora 44, RTX 3070, Ollama as a system service, models and this repo on the NVMe (`/mnt/nvme`).
+
+1. **Tools**: `ffmpeg`, `git`, `python3` (Fedora ships all of them). Ollama: `curl -fsSL https://ollama.com/install.sh | sh`, then `ollama pull qwen3:8b`.
+2. **Project**:
+   ```bash
+   git clone git@github.com:khotcholava/tunzle-shorts.git /mnt/nvme/tunzle/tunzle-shorts
+   cd /mnt/nvme/tunzle/tunzle-shorts/tool
+   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+   ```
+   Pushing uses your GitHub SSH key (`ssh -T git@github.com` should greet you as khotcholava).
+3. **Test run** (renders, no upload): `../linux/run_daily.sh --date 2026-11-06 --no-push`, then check `videos/2026-11-06/` and `tool/daily.log`.
+4. **Daily at 11:30 Tbilisi time** (systemd user timer, no sudo):
+   ```bash
+   /mnt/nvme/tunzle/tunzle-shorts/linux/install.sh
+   ```
+   * If the PC is off at 11:30, the job runs as soon as you log in (`Persistent=true`).
+   * To let it run even when you're not logged in: `loginctl enable-linger $USER`.
+   * The job refuses to push unless the repo is on `main` (the schedule's video URLs point at `main`).
+
+| Want to… | Run |
+|---|---|
+| See when it runs next / last run | `systemctl --user list-timers tunzle-daily.timer` |
+| Run today's job now | `systemctl --user start tunzle-daily.service` |
+| Read the log | `tail -50 /mnt/nvme/tunzle/tunzle-shorts/tool/daily.log` |
+| Turn it off | `systemctl --user disable --now tunzle-daily.timer` |
+
+Qwen (via Ollama) writes each title + hook. It gets up to 3 tries (`ollama_retries` in `config.json`) before a built-in title is used.
+
+---
+
+> **Running it with Hermes Agent + Ollama instead of Claude?** Follow [hermes/HERMES_SETUP.md](hermes/HERMES_SETUP.md) (WSL2) instead of the Windows setup below. On Linux, skip the WSL2 steps – Ollama is on `localhost` already.
 
 Your PC makes the videos; Claude only schedules them in Metricool.
 

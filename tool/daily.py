@@ -40,9 +40,27 @@ FOOTER = "\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the nex
 def log(*a): print("[tunzle]", *a, flush=True)
 
 
+# Words that appear in melody names/subtitles but give nothing away (a title like
+# "This Melody Is Impossible" must not be rejected just because the subtitle says "French melody").
+GENERIC_WORDS = {"theme", "song", "songs", "folk", "traditional", "march", "carol", "english", "melody", "tune",
+                 "music", "piece", "round", "rhyme", "nursery", "classic", "classical", "french", "german",
+                 "american", "italian", "russian", "spanish", "irish", "scottish", "sisters", "century"}
+
+
 def answer_words(key):
     words = re.findall(r"[a-zà-ÿ]{4,}", (M[key]["name"] + " " + M[key]["sub"]).lower())
-    return {w for w in words if w not in {"theme", "song", "folk", "traditional", "march", "carol", "english"}}
+    return {w for w in words if w not in GENERIC_WORDS}
+
+
+def _pick(data, *names):
+    """Qwen sometimes renames keys ("Title", "video_title") or nests them; find the first string that matches."""
+    if isinstance(data, dict):
+        for k, v in data.items():
+            if any(n in k.lower() for n in names) and isinstance(v, str) and v.strip(): return v
+        for v in data.values():
+            found = _pick(v, *names)
+            if found: return found
+    return None
 
 
 def ask_qwen(row, key):
@@ -59,20 +77,30 @@ def ask_qwen(row, key):
         "'Everyone Knows It, Nobody Can Name It 🤔' | 'Bet You Can't Guess This One 😏' | 'Your Grandma Knows This Melody 👵'.\n"
         "Write a NEW title in that style (don't copy the examples). Hook: one short sentence inviting viewers to comment their guess before the reveal.\n"
         'Reply ONLY as JSON: {"title": "...", "hook": "..."}')
-    try:
-        r = requests.post(CFG["ollama_url"].rstrip("/") + "/api/generate",
-                          json={"model": CFG["ollama_model"], "prompt": prompt, "stream": False, "format": "json",
-                                "options": {"temperature": 0.9}}, timeout=120)
-        r.raise_for_status()
-        data = json.loads(r.json()["response"])
-        title, hook = data["title"].strip().strip('"'), data["hook"].strip()
-    except Exception as e:
-        log("Ollama unavailable/invalid, using fallback:", e); return None
     bad = answer_words(key)
-    text = (title + " " + hook).lower()
-    if not title or len(title) > 70 or any(w in text for w in bad):
-        log("Qwen output rejected (too long or reveals the answer):", title); return None
-    return title, hook
+    tries = int(CFG.get("ollama_retries", 3))
+    for attempt in range(1, tries + 1):
+        try:
+            # think=False: qwen3 otherwise "reasons" first, which is slow and sometimes breaks the JSON shape.
+            r = requests.post(CFG["ollama_url"].rstrip("/") + "/api/generate",
+                              json={"model": CFG["ollama_model"], "prompt": prompt, "stream": False, "format": "json",
+                                    "think": False, "options": {"temperature": 0.9}}, timeout=120)
+            r.raise_for_status()
+            data = json.loads(r.json()["response"])
+            title, hook = _pick(data, "title"), _pick(data, "hook")
+            if not title or not hook: raise ValueError(f"missing title/hook in {data}")
+            title, hook = title.strip().strip('"'), hook.strip()
+        except requests.exceptions.ConnectionError as e:
+            log("Ollama not reachable, using fallback:", e); return None
+        except Exception as e:
+            log(f"Qwen attempt {attempt}/{tries} invalid:", e); continue
+        text = (title + " " + hook).lower()
+        hits = sorted(w for w in bad if w in text)  # substring on purpose: also catches "spiders", "twinkling"
+        if len(title) > 70 or hits:
+            log(f"Qwen attempt {attempt}/{tries} rejected ({'too long' if not hits else 'reveals ' + ', '.join(hits)}):", title)
+            continue
+        return title, hook
+    log("Qwen gave no usable title, using fallback"); return None
 
 
 def fallback(row, key, i):
