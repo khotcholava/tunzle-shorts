@@ -29,10 +29,15 @@ PROMPTS = {"Easy": ["Everyone knows this one!", "Name this melody!", "You've hea
            "Hard": ["Only 10% get this one!", "Impossible level!", "Prove you're a music genius"]}
 FMT_PROMPT = {"three_notes": "ONLY 3 NOTES!", "backwards": "Played BACKWARDS!", "double_speed": "DOUBLE SPEED!"}
 FALLBACK_TITLES = {
-    "Easy": ["Everyone Knows This Melody 🎵", "Name This Tune in 8 Seconds ⏱️", "You've Heard This 1000 Times 👀"],
-    "Medium": ["Can You Name This Melody? 🎶", "Only Real Music Fans Get This 🎧", "Bet You Can't Name It 😏"],
+    "Easy": ["Everyone Knows This Melody 🎵", "Name This Tune in 8 Seconds ⏱️", "You've Heard This 1000 Times 👀",
+             "Your Childhood Called… Name This Song 📞", "99% Get This Instantly — Do You? ✨", "Too Easy? Prove It 😎",
+             "Name It Before the Reveal ⏳"],
+    "Medium": ["Can You Name This Melody? 🎶", "Only Real Music Fans Get This 🎧", "Bet You Can't Name It 😏",
+               "This One Fools Most People 🤔", "Half of You Will Miss This 🎼", "Think You Know Music? 🎹",
+               "Name This Classic Tune 🎻"],
     "Hard": ["Only 10% Can Name This 🔴", "Impossible Level Melody Quiz 🔴", "Can You Beat HARD Mode? 🔴"],
-    "three_notes": ["HARD: Guess It From 3 Notes 🔴"], "backwards": ["Guess the Song Played BACKWARDS 🔄"],
+    "three_notes": ["HARD: Guess It From 3 Notes 🔴", "3 Notes. One Famous Song. Go! 🔴", "Only 3 Notes — Can You Get It? 🔴",
+                    "3-Note Challenge: Name This Song 🔴"], "backwards": ["Guess the Song Played BACKWARDS 🔄"],
     "double_speed": ["Guess the Song at DOUBLE SPEED ⚡"], "xmas": ["Guess the Christmas Song 🎄", "Christmas Melody Quiz 🎅", "Name This Christmas Classic 🎄"]}
 FOOTER = "\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle"
 
@@ -105,7 +110,8 @@ def ask_qwen(row, key):
 
 def fallback(row, key, i):
     pool = FALLBACK_TITLES["xmas"] if M[key]["cat"] == "xmas" else FALLBACK_TITLES.get(row["format"]) or FALLBACK_TITLES[row["level"]]
-    title = pool[i % len(pool)]
+    # rotate by date so the fallback titles differ from day to day
+    title = pool[(i + dt.date.fromisoformat(row["batch_date"]).toordinal()) % len(pool)]
     hook = {"Easy": "Can you name it before the reveal? Comment your answer!",
             "Medium": "Can you name it? Comment before the reveal!",
             "Hard": "HARD level 🔴 Comment your guess before the reveal!"}[row["level"]]
