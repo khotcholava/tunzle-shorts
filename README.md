@@ -21,7 +21,8 @@ Current machine: Fedora 44, RTX 3070, Ollama as a system service, models and thi
    /mnt/nvme/tunzle/tunzle-shorts/linux/install.sh
    ```
    * If the PC is off at 11:30, the job runs as soon as you log in (`Persistent=true`).
-   * To let it run even when you're not logged in: `loginctl enable-linger $USER`.
+   * `install.sh` also runs `loginctl enable-linger $USER`, so the job runs even when you are not logged in.
+   * If a batch for tomorrow is already on `main` (e.g. made by the cloud fallback), the job just exits.
    * The job refuses to push unless the repo is on `main` (the schedule's video URLs point at `main`).
 
 | Want to… | Run |

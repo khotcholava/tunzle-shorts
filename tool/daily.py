@@ -124,6 +124,11 @@ def main():
     a = ap.parse_args()
     if a.no_ollama: CFG["use_ollama"] = False
     day = a.date or (dt.date.today() + dt.timedelta(days=1)).isoformat()
+    if not a.no_push:
+        # Sync first so a batch already pushed from elsewhere (e.g. the cloud fallback) is seen, not clobbered.
+        git("pull", "--rebase", "--autostash")
+    if not a.force and os.path.exists(os.path.join(REPO, "schedule", f"{day}.json")):
+        log(f"schedule/{day}.json already exists on main, nothing to do (use --force to rebuild)"); return
     rows = [r for r in csv.DictReader(open(os.path.join(HERE, "calendar.csv"), encoding="utf-8")) if r["batch_date"] == day]
     if not rows: log("No calendar rows for", day); return
     vdir = os.path.join(REPO, "videos", day); os.makedirs(vdir, exist_ok=True)
