@@ -1,0 +1,97 @@
+{
+ "batch_date": "2026-11-06",
+ "made_for_kids": false,
+ "category": "ENTERTAINMENT",
+ "posts": [
+  {
+   "post_datetime": "2026-11-06T16:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-06/2026-11-06_1_frere_jacques_normal.mp4",
+   "title": "Everyone Knows This Melody 🎵 #shorts",
+   "description": "Can you name it before the reveal? Comment your answer!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "frère jacques",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Easy",
+   "format": "normal",
+   "answer": "FRÈRE JACQUES"
+  },
+  {
+   "post_datetime": "2026-11-06T18:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-06/2026-11-06_2_twinkle_normal.mp4",
+   "title": "Name This Tune in 8 Seconds ⏱️ #shorts",
+   "description": "Can you name it before the reveal? Comment your answer!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "twinkle twinkle little star",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Easy",
+   "format": "normal",
+   "answer": "TWINKLE TWINKLE LITTLE STAR"
+  },
+  {
+   "post_datetime": "2026-11-06T21:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-06/2026-11-06_3_itsy_bitsy_normal.mp4",
+   "title": "Bet You Can't Name It 😏 #shorts",
+   "description": "Can you name it? Comment before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "itsy bitsy spider",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Medium",
+   "format": "normal",
+   "answer": "ITSY BITSY SPIDER"
+  },
+  {
+   "post_datetime": "2026-11-07T00:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-06/2026-11-06_4_yankee_doodle_normal.mp4",
+   "title": "Can You Name This Melody? 🎶 #shorts",
+   "description": "Can you name it? Comment before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "yankee doodle",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Medium",
+   "format": "normal",
+   "answer": "YANKEE DOODLE"
+  },
+  {
+   "post_datetime": "2026-11-07T03:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-06/2026-11-06_5_happy_birthday_three_notes.mp4",
+   "title": "HARD: Guess It From 3 Notes 🔴 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "happy birthday",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "HAPPY BIRTHDAY"
+  }
+ ]
+}
