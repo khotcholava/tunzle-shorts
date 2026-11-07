@@ -1,0 +1,97 @@
+{
+ "batch_date": "2026-11-08",
+ "made_for_kids": false,
+ "category": "ENTERTAINMENT",
+ "posts": [
+  {
+   "post_datetime": "2026-11-08T16:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-08/2026-11-08_1_blue_danube_three_notes.mp4",
+   "title": "HARD: Guess It From 3 Notes 🔴 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "the blue danube",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "THE BLUE DANUBE"
+  },
+  {
+   "post_datetime": "2026-11-08T18:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-08/2026-11-08_2_entertainer_backwards.mp4",
+   "title": "Guess the Song Played BACKWARDS 🔄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "the entertainer",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "backwards",
+   "answer": "THE ENTERTAINER"
+  },
+  {
+   "post_datetime": "2026-11-08T21:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-08/2026-11-08_3_saints_double_speed.mp4",
+   "title": "Guess the Song at DOUBLE SPEED ⚡ #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "when the saints go marching in",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "double_speed",
+   "answer": "WHEN THE SAINTS GO MARCHING IN"
+  },
+  {
+   "post_datetime": "2026-11-09T00:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-08/2026-11-08_4_oh_susanna_three_notes.mp4",
+   "title": "3-Note Challenge: Name This Song 🔴 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "oh! susanna",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "OH! SUSANNA"
+  },
+  {
+   "post_datetime": "2026-11-09T03:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-08/2026-11-08_5_amazing_grace_backwards.mp4",
+   "title": "Guess the Song Played BACKWARDS 🔄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "amazing grace",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "backwards",
+   "answer": "AMAZING GRACE"
+  }
+ ]
+}
