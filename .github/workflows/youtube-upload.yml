@@ -1,0 +1,49 @@
+name: Upload Shorts to YouTube
+
+on:
+  push:
+    branches: [main]
+    paths: ["schedule/20*.json"]
+  schedule:
+    - cron: "17 9 * * *"   # 13:17 Tbilisi: retries anything left over (quota, errors, overdue backlog)
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Max uploads this run (YouTube quota allows about 6 a day)"
+        default: "5"
+
+concurrency:
+  group: youtube-upload
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python tool/youtube_upload.py --max "${{ github.event.inputs.max || '5' }}"
+      - name: Save upload log
+        if: always()
+        run: |
+          git config user.name "tunzle-bot"
+          git config user.email "tunzle-bot@users.noreply.github.com"
+          git add schedule/uploaded.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "YouTube uploads $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

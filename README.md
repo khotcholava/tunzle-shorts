@@ -109,3 +109,33 @@ Your PC makes the videos; Claude only schedules them in Metricool.
 * **Melodies marked `check=True`** in `melodies.py` are ones worth a quick listen before they go out.
 * **Adding melodies**: copy an entry in `melodies.py`, write the notes (`E4/1 D#4/.5 R/1 …`), then run `python make_calendar.py`. Only use music that is public domain (composer died 70+ years ago).
 * All Shorts post as public, *not made for kids*, category Entertainment.
+
+## YouTube uploader (replaces Metricool)
+
+`tool/youtube_upload.py` uploads every Short in `schedule/*.json` straight to YouTube. Upcoming posts go up as
+private with a publish time, so YouTube makes them public on schedule. Overdue posts are published right away.
+What's been uploaded is tracked in `schedule/uploaded.json`, so nothing goes up twice.
+It runs in GitHub Actions (`.github/workflows/youtube-upload.yml`) whenever a new batch is pushed to `main`, and once
+a day at 13:17 Tbilisi time to pick up anything left over. The PC doesn't need to be on.
+
+**One-time setup**
+
+1. In [Google Cloud Console](https://console.cloud.google.com/), create a project and enable **YouTube Data API v3**.
+2. **OAuth consent screen**: External, add your Google account as a test user, then press **Publish app**
+   (in "Testing" mode the token stops working after 7 days). The "unverified app" warning on sign-in is fine for your own use.
+3. **Credentials → Create credentials → OAuth client ID → Desktop app**. Copy the client ID and secret.
+4. On the PC: `cd tool && .venv/bin/python youtube_auth.py CLIENT_ID CLIENT_SECRET`, sign in with the account that owns
+   @tunzlequiz, and copy the printed refresh token.
+5. GitHub → repo **Settings → Secrets and variables → Actions**: add `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`.
+6. **Actions → Upload Shorts to YouTube → Run workflow** to test.
+7. Fill in the [YouTube API audit form](https://support.google.com/youtube/contact/yt_api_form). Until the project
+   passes it, YouTube locks API uploads to **private**, so the videos won't go public on their own.
+
+**Limits**: one upload costs 1600 of the default 10,000 daily quota units, so about 6 uploads a day. The 5-a-day batch
+fits; an overdue backlog drains at about 1 a day.
+
+| Want to… | Run |
+|---|---|
+| See what would be uploaded | `python tool/youtube_upload.py --dry-run` |
+| Mark posts as done (you uploaded them by hand) | `python tool/youtube_upload.py --mark-done 2026-11-12T16:00` then commit `schedule/uploaded.json` |
+| Skip the backlog | `python tool/youtube_upload.py --since 2026-11-13` |

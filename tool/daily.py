@@ -165,7 +165,7 @@ def main():
         git("add", "videos", "schedule")
         subprocess.run(["git", "-C", REPO, "commit", "-m", f"Tunzle batch {day}"])
         git("push")
-        log("pushed to GitHub — Claude's daily task will schedule these in Metricool")
+        log("pushed to GitHub — the YouTube uploader workflow picks these up")
 
 
 if __name__ == "__main__":
