@@ -1,0 +1,97 @@
+{
+ "batch_date": "2026-11-15",
+ "made_for_kids": false,
+ "category": "ENTERTAINMENT",
+ "posts": [
+  {
+   "post_datetime": "2026-11-15T16:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-15/2026-11-15_1_valkyries_three_notes.mp4",
+   "title": "3-Note Challenge: Name This Song 🔴 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "ride of the valkyries",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "RIDE OF THE VALKYRIES"
+  },
+  {
+   "post_datetime": "2026-11-15T18:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-15/2026-11-15_2_beethoven5_backwards.mp4",
+   "title": "Guess the Song Played BACKWARDS 🔄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "symphony no. 5",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "backwards",
+   "answer": "SYMPHONY NO. 5"
+  },
+  {
+   "post_datetime": "2026-11-15T21:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-15/2026-11-15_3_turkish_march_double_speed.mp4",
+   "title": "Guess the Song at DOUBLE SPEED ⚡ #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "turkish march",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "double_speed",
+   "answer": "TURKISH MARCH"
+  },
+  {
+   "post_datetime": "2026-11-16T00:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-15/2026-11-15_4_canon_three_notes.mp4",
+   "title": "Only 3 Notes — Can You Get It? 🔴 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "canon in d",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "CANON IN D"
+  },
+  {
+   "post_datetime": "2026-11-16T03:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-15/2026-11-15_5_frere_jacques_backwards.mp4",
+   "title": "Guess the Song Played BACKWARDS 🔄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "frère jacques",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "backwards",
+   "answer": "FRÈRE JACQUES"
+  }
+ ]
+}
