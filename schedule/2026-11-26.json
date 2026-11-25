@@ -1,0 +1,97 @@
+{
+ "batch_date": "2026-11-26",
+ "made_for_kids": false,
+ "category": "ENTERTAINMENT",
+ "posts": [
+  {
+   "post_datetime": "2026-11-26T16:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-26/2026-11-26_1_blue_danube_normal.mp4",
+   "title": "99% Get This Instantly — Do You? ✨ #shorts",
+   "description": "Can you name it before the reveal? Comment your answer!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "the blue danube",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Easy",
+   "format": "normal",
+   "answer": "THE BLUE DANUBE"
+  },
+  {
+   "post_datetime": "2026-11-26T18:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-26/2026-11-26_2_habanera_normal.mp4",
+   "title": "Too Easy? Prove It 😎 #shorts",
+   "description": "Can you name it before the reveal? Comment your answer!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "habanera",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Easy",
+   "format": "normal",
+   "answer": "HABANERA"
+  },
+  {
+   "post_datetime": "2026-11-26T21:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-26/2026-11-26_3_toreador_normal.mp4",
+   "title": "Name This Classic Tune 🎻 #shorts",
+   "description": "Can you name it? Comment before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "toreador song",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Medium",
+   "format": "normal",
+   "answer": "TOREADOR SONG"
+  },
+  {
+   "post_datetime": "2026-11-27T00:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-26/2026-11-26_4_angels_high_normal.mp4",
+   "title": "Name This Christmas Classic 🎄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "angels we have heard on high",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "normal",
+   "answer": "ANGELS WE HAVE HEARD ON HIGH"
+  },
+  {
+   "post_datetime": "2026-11-27T03:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-26/2026-11-26_5_jingle_bells_three_notes.mp4",
+   "title": "Guess the Christmas Song 🎄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "jingle bells",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "JINGLE BELLS"
+  }
+ ]
+}
