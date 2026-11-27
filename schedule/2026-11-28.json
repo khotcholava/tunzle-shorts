@@ -1,0 +1,97 @@
+{
+ "batch_date": "2026-11-28",
+ "made_for_kids": false,
+ "category": "ENTERTAINMENT",
+ "posts": [
+  {
+   "post_datetime": "2026-11-28T16:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-28/2026-11-28_1_ball_game_normal.mp4",
+   "title": "Name It Before the Reveal ⏳ #shorts",
+   "description": "Can you name it before the reveal? Comment your answer!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "take me out to the ball game",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Easy",
+   "format": "normal",
+   "answer": "TAKE ME OUT TO THE BALL GAME"
+  },
+  {
+   "post_datetime": "2026-11-28T18:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-28/2026-11-28_2_bridal_chorus_normal.mp4",
+   "title": "Everyone Knows This Melody 🎵 #shorts",
+   "description": "Can you name it before the reveal? Comment your answer!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "here comes the bride",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Easy",
+   "format": "normal",
+   "answer": "HERE COMES THE BRIDE"
+  },
+  {
+   "post_datetime": "2026-11-28T21:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-28/2026-11-28_3_o_tannenbaum_normal.mp4",
+   "title": "Guess the Christmas Song 🎄 #shorts",
+   "description": "Can you name it? Comment before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "o christmas tree",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Medium",
+   "format": "normal",
+   "answer": "O CHRISTMAS TREE"
+  },
+  {
+   "post_datetime": "2026-11-29T00:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-28/2026-11-28_4_joy_world_normal.mp4",
+   "title": "Christmas Melody Quiz 🎅 #shorts",
+   "description": "Can you name it? Comment before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "joy to the world",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Medium",
+   "format": "normal",
+   "answer": "JOY TO THE WORLD"
+  },
+  {
+   "post_datetime": "2026-11-29T03:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-28/2026-11-28_5_hark_herald_three_notes.mp4",
+   "title": "Name This Christmas Classic 🎄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "hark! the herald angels sing",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "HARK! THE HERALD ANGELS SING"
+  }
+ ]
+}
