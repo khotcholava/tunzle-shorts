@@ -1,0 +1,97 @@
+{
+ "batch_date": "2026-11-29",
+ "made_for_kids": false,
+ "category": "ENTERTAINMENT",
+ "posts": [
+  {
+   "post_datetime": "2026-11-29T16:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-29/2026-11-29_1_scarborough_three_notes.mp4",
+   "title": "3 Notes. One Famous Song. Go! 🔴 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "scarborough fair",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "SCARBOROUGH FAIR"
+  },
+  {
+   "post_datetime": "2026-11-29T18:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-29/2026-11-29_2_jolly_fellow_backwards.mp4",
+   "title": "Guess the Song Played BACKWARDS 🔄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "for he's a jolly good fellow",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "backwards",
+   "answer": "FOR HE'S A JOLLY GOOD FELLOW"
+  },
+  {
+   "post_datetime": "2026-11-29T21:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-29/2026-11-29_3_carol_bells_normal.mp4",
+   "title": "Christmas Melody Quiz 🎅 #shorts",
+   "description": "Can you name it? Comment before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "carol of the bells",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Medium",
+   "format": "normal",
+   "answer": "CAROL OF THE BELLS"
+  },
+  {
+   "post_datetime": "2026-11-30T00:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-29/2026-11-29_4_god_rest_normal.mp4",
+   "title": "Name This Christmas Classic 🎄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "god rest ye merry gentlemen",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "normal",
+   "answer": "GOD REST YE MERRY GENTLEMEN"
+  },
+  {
+   "post_datetime": "2026-11-30T03:00:00",
+   "timezone": "Asia/Tbilisi",
+   "video_url": "https://raw.githubusercontent.com/khotcholava/tunzle-shorts/main/videos/2026-11-29/2026-11-29_5_o_come_faithful_three_notes.mp4",
+   "title": "Guess the Christmas Song 🎄 #shorts",
+   "description": "HARD level 🔴 Comment your guess before the reveal!\n\nNew Tunzle music quiz every day — follow @tunzlequiz for the next round 🎵🧩\n\n#shorts #guessthesong #guessthemelody #musicquiz #quiz #tunzle",
+   "tags": [
+    "guess the song",
+    "guess the melody",
+    "music quiz",
+    "o come, all ye faithful",
+    "quiz",
+    "tunzle"
+   ],
+   "level": "Hard",
+   "format": "three_notes",
+   "answer": "O COME, ALL YE FAITHFUL"
+  }
+ ]
+}
